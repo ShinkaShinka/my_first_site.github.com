@@ -1,0 +1,271 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #0d0e14;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none !important;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+header {
+    background-color: #13151f;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navigation {
+    margin-left: 1.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    color: aquamarine;
+    font-size: calc(1.5vw + 7px);
+    text-decoration: none;
+    margin-right: 32.5vw;
+}
+
+    .brand:hover {
+        color: yellow;
+        transition: 0.4s;
+    }
+
+.brand_icon {
+    max-width: 100%;
+    height: 8vh;
+    cursor: pointer;
+}
+
+.sitename {
+    color: aliceblue;
+    font-size: 2.4vw;
+    cursor: pointer;
+    margin-right: 31.7vw;
+}
+
+    .sitename:hover {
+        color: yellow;
+        transition: 0.4s;
+    }
+
+hr {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    height: 0.1vh;
+    border: 0;
+    background: black;
+}
+
+.top_content {
+    margin-top: 2.5vw;
+    color: aliceblue;
+    text-align: center;
+}
+
+.top_content2 {
+    margin-top: 0px;
+    color: dimgray;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    margin-left: calc(14vw - 2vh);
+    margin-right: calc(14vw - 2vh);
+    margin-top: 5%;
+    padding-top: 10px;
+    padding-left: calc(1% - 1px);
+    padding-right: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+}
+
+.panel1 {
+    color: rgb(35,141,17);
+    border-radius: calc(1.0vh + 1.0vw);
+    border: inset 0.2vw;
+    border-color: rgb(35,171,17);
+    min-width: 37%;
+    max-width: 37%;
+    height: calc(25.0vw + 1px);
+    text-align: center;
+    background-color: #050a07;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+    .panel1:hover {
+        background: rgb(35,141,17);
+        color: white;
+        border: dotted;
+        box-shadow: 0 0 115px rgb(35,141,17), 0 0 15px rgb(35,141,17), 0 0 15px rgb(35,141,17), 0 0 15px rgb(35,141,17);
+        transition: 0.75s;
+    }
+
+.panel2 {
+    color: rgb(190,190,0);
+    border-radius: calc(1.0vh + 1.0vw);
+    border: inset 0.2vw;
+    border-color: rgb(190,190,0);
+    min-width: 37%;
+    max-width: 37%;
+    height: calc(25.0vw + 1px);
+    text-align: center;
+    background-color: #050a07;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+    .panel2:hover {
+        background: rgb(190,190,0);
+        color: white;
+        border: dashed;
+        box-shadow: 0 0 115px rgb(190,190,0), 0 0 15px rgb(190,190,0), 0 0 15px rgb(190,190,0), 0 0 15px rgb(190,190,0);
+        transition: 0.75s;
+    }
+
+.panel3 {
+    color: rgb(250,181,17);
+    border-radius: calc(1.0vh + 1.0vw);
+    border: inset 0.2vw;
+    border-color: rgb(250,181,17);
+    min-width: 37%;
+    max-width: 37%;
+    height: calc(25.0vw + 1px);
+    text-align: center;
+    background-color: #050a07;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+    .panel3:hover {
+        background: rgb(250,181,17);
+        color: white;
+        border: outset;
+        box-shadow: 0 0 115px rgb(250,181,17), 0 0 15px rgb(250,181,17), 0 0 15px rgb(250,181,17), 0 0 15px rgb(250,181,17);
+        transition: 0.75s;
+    }
+
+.panel4 {
+    color: rgb(205,41,17);
+    border-radius: calc(1.0vh + 1.0vw);
+    border: inset 0.2vw;
+    border-color: rgb(205,41,17);
+    min-width: 37%;
+    max-width: 37%;
+    height: calc(25.0vw + 1px);
+    text-align: center;
+    background-color: #050a07;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+    .panel4:hover {
+        background: rgb(205,41,17);
+        color: white;
+        border: double;
+        box-shadow: 0 0 115px rgb(205,41,17), 0 0 15px rgb(205,41,17), 0 0 15px rgb(205,41,17), 0 0 15px rgb(205,41,17);
+        transition: 0.75s;
+    }
+
+footer {
+    height: 12vh;
+    width: 100%;
+    border-top: 0.1vh solid rgb(205,41,17);
+    margin-top: 15%;
+    margin-bottom: 0px;
+    color: darkcyan;
+    background-color: #13151f;
+    font-size: 3.5vh;
+}
+
+.footinfo {
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 900px){
+    .navigation {
+        margin-left: 1.5vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .brand {
+        color: aquamarine;
+        font-size: 2.35vw;
+        text-decoration: none;
+        margin-right: 32.5vw;
+    }
+
+    .brand_icon {
+        height: 5vw;
+    }
+
+    hr {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        height: 0.1vw;
+        border: 0;
+        background: black;
+    }
+    .content {
+        display: flex;
+        flex: 1 1 auto;
+        justify-content: space-between;
+        margin-left: calc(14vw - 2vh);
+        margin-right: calc(14vw - 2vh);
+        margin-top: 5%;
+        padding-top: 10px;
+        padding-left: calc(1% - 1px);
+        padding-right: 1%;
+        padding-bottom: 1%;
+        text-align: left;
+    }
+
+    footer {
+        align-items: center;
+        position: fixed;
+        bottom: 0px;
+        height: 6.5vw;
+        width: 100%;
+        border-top: 0.1vw solid rgb(205,41,17);
+        margin-bottom: 0px;
+        color: darkcyan;
+        background-color: #13151f;
+        font-size: 2.1vw;
+    }
+}
+@media (max-width: 500px) {
+    footer {
+        align-items: center;
+        position: fixed;
+        bottom: 0px;
+        height: 6vw;
+        width: 100%;
+        border-top: 0.1vw solid rgb(205,41,17);
+        margin-bottom: 0px;
+        color: darkcyan;
+        background-color: #13151f;
+        font-size: 2.2vw;
+    }
+}
